@@ -1,13 +1,63 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
 /* Add a background color to the header element */
-
+header { 
+    background-color:purple;
+    color: white;
+    padding: 20px;
+}
 /* Add a fun background color to the main element */
-
+main {
+    background-color: azure;
+    padding: 20px;
+}
 /* Align the h1 containing your name in the center of the header*/
+header h1, header p {
+    text-align: center;
+}
 
+header p {
+    margin-bottom: 0;
+}
 /* Make your p tag a different color and italic */
+footer p {
+    color:darkmagenta;
+    font-style: italic;
+}
 
 /* Put a border around your image */
+img {
+    border: 1px solid #fff;
+    border-radius: 200px;
+    float: left;
+    margin: 0 40px 40px 0;
+    width: 200px;
+}
 
+main {
+    float: left;
+}
+
+main h2, main ul {
+    float: left;
+    width: calc(100% - 260px);
+}
 /* Change the font-family of your list */
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+li {
+    list-style-type: circle;
+    margin-left: 20px;
+}
 
 /* Add a background color to the footer element */
+footer {
+    background-color: #bba6c1;
+    padding: 20px;
+    float: left;
+    width: 100%;
+}
